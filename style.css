@@ -1,0 +1,89 @@
+/*امسح الديفلت بتاع المحرك*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------------------------------------------*/
+/*هيتطبق علآ المشروع بالكامل*/
+body{
+    background-color: antiquewhite;
+    color: #10006d;
+    font-family: system-ui;
+}
+/*  هيطبق على ديف الكبير*/
+.crud{
+    width: 80%;
+    margin: auto;
+}
+/*------------------------------------------*/
+/*نسق اول جزء في الخريطة*/
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px  0px;
+}
+/*------------------------------------------*/
+/*تنسيق لكل المدخلات*/
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #c4def5;
+    margin: 4px 0px;
+    border-radius: 4px;
+    padding: 4px;
+    color: #10006d;
+}
+input:focus{
+    background-color: #aea8d3;
+    transform: scale(1.1);
+}
+
+.price input{
+    width: 20%;
+}
+#total{
+    background-color: #10006d;
+    color: antiquewhite;
+    padding: 6px 3px;
+    border-radius: 4px;
+}
+#total::before{
+    content: 'Total: ';
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #10006d;
+    color: antiquewhite;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #45369b;
+    letter-spacing: 1px;
+}
+/*------------------------------------------*/
+/*تنسيق لكل المخرجات*/
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button{
+    width: 45%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
